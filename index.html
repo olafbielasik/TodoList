@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Todo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="wrap">
+    <header class="header">
+      <h1 class="title">Todo</h1>
+      <p class="subtitle">Simple, elegant task management</p>
+    </header>
+
+    <section class="input-row">
+      <input id="todo-input" type="text" placeholder="What needs to be done?" autocomplete="off" />
+      <button id="add-btn" aria-label="Add">+</button>
+    </section>
+
+    <section class="list-section">
+      <h2 class="section-title">ACTIVE <span id="active-count" class="count">(0)</span></h2>
+      <ul id="active-list" class="todo-list"></ul>
+    </section>
+
+    <section class="list-section">
+      <h2 class="section-title">COMPLETED <span id="completed-count" class="count">(0)</span></h2>
+      <ul id="completed-list" class="todo-list"></ul>
+    </section>
+
+    <footer class="footer">
+      <span id="remaining-text">0 of 0 tasks remaining</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

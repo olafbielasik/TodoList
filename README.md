@@ -1,4 +1,4 @@
-# TodoList
+# To do List
 
 **TodoList** is a minimalistic, elegant task management application that helps you keep track of what needs to be done. It offers a clean, intuitive interface for creating, completing, and managing tasks with ease.
 
